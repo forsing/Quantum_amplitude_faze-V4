@@ -47,9 +47,9 @@ from qiskit.quantum_info import Statevector
 
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv",
+    "/data/loto7_4708_k85.csv",
+    "/data/loto7_4708_k85_loto_2976.csv",
+    "/data/loto7_4708_k85_loto_plus_1732.csv",
 )
 
 CONFIGS = ((1, 1e-4), (2, 1e-3), (2, 1e-2))
@@ -1274,7 +1274,7 @@ if __name__ == "__main__":
 
 
 """
-V3 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv
+V3 — FAJL: /data/loto7_4708_k85.csv
 Kola: 4708; prelazi: 4707; trening/validacija/test: 3294/706/707
 
 Validaciona pretraga: slojevi=1, regularizacija=0.0001
@@ -1401,7 +1401,7 @@ Završno učenje na SVIM istorijskim prelazima:
     NLL korišćene tačke: 19.97345854
     |grad|inf korišćene tačke: 7.663e-04
 
-NEXT V3: 6, 12, 14, 17, 22, 33, 37
+NEXT V3: 6, x, 14, y, 22, z, 37
 Logaritamska masa NEXT u modelu: -7.93797889
 Promena zajedničkih marginala prema prethodnom kontekstu: 0.582638383
 Qiskit, gradijenti, normalizacija, granice i maksimum: ugrađene provere prošle.
@@ -1409,7 +1409,7 @@ Masa modela nije izmerena uspešnost predikcije.
 
 
 
-V3 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv
+V3 — FAJL: /data/loto7_4708_k85_loto_2976.csv
 Kola: 2976; prelazi: 2975; trening/validacija/test: 2082/446/447
 
 Validaciona pretraga: slojevi=1, regularizacija=0.0001
@@ -1511,7 +1511,7 @@ Završno učenje na SVIM istorijskim prelazima:
     NLL korišćene tačke: 19.34905175
     |grad|inf korišćene tačke: 1.747e-02
 
-NEXT V3: 15, 17, 31, 34, 37, 38, 39
+NEXT V3: 15, x, 31, y, 37, z, 39
 Logaritamska masa NEXT u modelu: -9.17720816
 Promena zajedničkih marginala prema prethodnom kontekstu: 0.3257422332
 Qiskit, gradijenti, normalizacija, granice i maksimum: ugrađene provere prošle.
@@ -1519,7 +1519,7 @@ Masa modela nije izmerena uspešnost predikcije.
 
 
 
-V3 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv
+V3 — FAJL: /data/loto7_4708_k85_loto_plus_1732.csv
 Kola: 1732; prelazi: 1731; trening/validacija/test: 1211/260/260
 
 Validaciona pretraga: slojevi=1, regularizacija=0.0001
@@ -1639,7 +1639,7 @@ Završno učenje na SVIM istorijskim prelazima:
     NLL korišćene tačke: 18.84083413
     |grad|inf korišćene tačke: 5.059e-05
 
-NEXT V3: 3, 14, 28, 29, 31, 32, 34
+NEXT V3: 3, x, 28, y, 31, z, 34
 Logaritamska masa NEXT u modelu: -8.86196005
 Promena zajedničkih marginala prema prethodnom kontekstu: 0.2291430627
 Qiskit, gradijenti, normalizacija, granice i maksimum: ugrađene provere prošle.
@@ -1648,9 +1648,9 @@ Masa modela nije izmerena uspešnost predikcije.
 
 
 KONAČNI NEXT REZULTATI — V3
-loto7_4708_k85.csv: 6, 12, 14, 17, 22, 33, 37
-loto7_4708_k85_loto_2976.csv: 15, 17, 31, 34, 37, 38, 39
-loto7_4708_k85_loto_plus_1732.csv: 3, 14, 28, 29, 31, 32, 34
+loto7_4708_k85.csv: 6, x, 14, y, 22, z, 37
+loto7_4708_k85_loto_2976.csv: 15, x, 31, y, 37, z, 39
+loto7_4708_k85_loto_plus_1732.csv: 3, x, 28, y, 31, z, 34
 
 
 
