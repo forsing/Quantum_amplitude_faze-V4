@@ -40,9 +40,9 @@ from qiskit.quantum_info import Statevector
 
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv",
+    "/data/loto7_4708_k85.csv",
+    "/data/loto7_4708_k85_loto_2976.csv",
+    "/data/loto7_4708_k85_loto_plus_1732.csv",
 )
 
 # Parametri se biraju isključivo na hronološkoj validaciji.
@@ -693,7 +693,7 @@ if __name__ == "__main__":
 
 
 """
-FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv
+FAJL: /data/loto7_4708_k85.csv
 Kola: 4708; prelazi: 4707; trening/validacija/test: 3294/706/707
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -747,13 +747,13 @@ Završno učenje na celoj istoriji:
     Pozicija 6/7: cilj=0.1302664, iteracije=35
     Pozicija 7/7: cilj=0.1788776, iteracije=35
 
-NEXT: 8, 9, 10, 16, 17, 29, 35
+NEXT: 8, x, 10, y, 17, z, 35
 Logaritamska masa NEXT u naučenom modelu: -8.53966015
 Masa modela nije izmerena uspešnost predikcije. Qiskit, gradijenti, normalizacija i maksimum: provere prošle.
 
 
 
-FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv
+FAJL: /data/loto7_4708_k85_loto_2976.csv
 Kola: 2976; prelazi: 2975; trening/validacija/test: 2082/446/447
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -807,13 +807,13 @@ Završno učenje na celoj istoriji:
     Pozicija 6/7: cilj=0.1317729, iteracije=32
     Pozicija 7/7: cilj=0.1801047, iteracije=39
 
-NEXT: 14, 15, 19, 22, 23, 26, 27
+NEXT: 14, x, 19, y, 23, z, 27
 Logaritamska masa NEXT u naučenom modelu: -8.69819789
 Masa modela nije izmerena uspešnost predikcije. Qiskit, gradijenti, normalizacija i maksimum: provere prošle.
 
 
 
-FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv
+FAJL: /data/loto7_4708_k85_loto_plus_1732.csv
 Kola: 1732; prelazi: 1731; trening/validacija/test: 1211/260/260
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -867,16 +867,16 @@ Završno učenje na celoj istoriji:
     Pozicija 6/7: cilj=0.1290084, iteracije=33
     Pozicija 7/7: cilj=0.1766335, iteracije=32
 
-NEXT: 10, 12, 14, 23, 27, 29, 31
+NEXT: 10, x, 14, y, 27, z, 31
 Logaritamska masa NEXT u naučenom modelu: -8.56484661
 Masa modela nije izmerena uspešnost predikcije. Qiskit, gradijenti, normalizacija i maksimum: provere prošle.
 
 
 
 KONAČNI NEXT REZULTATI
-loto7_4708_k85.csv: 8, 9, 10, 16, 17, 29, 35
-loto7_4708_k85_loto_2976.csv: 14, 15, 19, 22, 23, 26, 27
-loto7_4708_k85_loto_plus_1732.csv: 10, 12, 14, 23, 27, 29, 31
+loto7_4708_k85.csv: 8, x, 10, y, 17, z, 35
+loto7_4708_k85_loto_2976.csv: 14, x, 19, y, 23, z, 27
+loto7_4708_k85_loto_plus_1732.csv: 10, x, 14, y, 27, z, 31
 """
 
 
