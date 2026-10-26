@@ -42,9 +42,9 @@ from qiskit.quantum_info import Statevector
 
 
 PATHS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv",
+    "/data/loto7_4708_k85.csv",
+    "/data/loto7_4708_k85_loto_2976.csv",
+    "/data/loto7_4708_k85_loto_plus_1732.csv",
 )
 
 # Zadržani kandidati iz V1 radi uporedivosti.
@@ -716,7 +716,7 @@ if __name__ == "__main__":
 
 
 """
-V2 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv
+V2 — FAJL: /data/loto7_4708_k85.csv
 Kola: 4708; prelazi: 4707; trening/validacija/test: 3294/706/707
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -845,7 +845,7 @@ Završno učenje na SVIM istorijskim prelazima:
     Početni cilj=23.53425883; završni cilj=20.14632990; trening NLL=20.14622099; iteracije=200
     OPTIMIZATOR: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT. Zadržan je konačni validan rezultat; konvergencija nije potvrđena.
 
-NEXT V2: 6, 12, 14, 17, 19, 33, 37
+NEXT V2: 6, x, 14, y, 19, z, 37
 Logaritamska masa NEXT u modelu: -8.15133137
 Promena raspodele prema prethodnom kontekstu: 0.1494392374
 Qiskit, zajednički gradijenti, normalizacija i maksimum: provere prošle.
@@ -853,7 +853,7 @@ Završna optimizacija nije prijavila konvergenciju: STOP: TOTAL NO. OF ITERATION
 
 
 
-V2 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv
+V2 — FAJL: /data/loto7_4708_k85_loto_2976.csv
 Kola: 2976; prelazi: 2975; trening/validacija/test: 2082/446/447
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -982,7 +982,7 @@ Završno učenje na SVIM istorijskim prelazima:
     Početni cilj=24.05945083; završni cilj=19.17966021; trening NLL=19.17869087; iteracije=200
     OPTIMIZATOR: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT. Zadržan je konačni validan rezultat; konvergencija nije potvrđena.
 
-NEXT V2: 5, 8, 14, 22, 28, 31, 38
+NEXT V2: 5, x, 14, y, 28, z, 38
 Logaritamska masa NEXT u modelu: -9.83083503
 Promena raspodele prema prethodnom kontekstu: 0.2008381922
 Qiskit, zajednički gradijenti, normalizacija i maksimum: provere prošle.
@@ -990,7 +990,7 @@ Završna optimizacija nije prijavila konvergenciju: STOP: TOTAL NO. OF ITERATION
 
 
 
-V2 — FAJL: /Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv
+V2 — FAJL: /data/loto7_4708_k85_loto_plus_1732.csv
 Kola: 1732; prelazi: 1731; trening/validacija/test: 1211/260/260
 
 Validacioni kandidat: slojevi=1, regularizacija=0.0001
@@ -1119,7 +1119,7 @@ Završno učenje na SVIM istorijskim prelazima:
     Početni cilj=23.90231479; završni cilj=18.84827966; trening NLL=18.84084006; iteracije=200
     OPTIMIZATOR: STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT. Zadržan je konačni validan rezultat; konvergencija nije potvrđena.
 
-NEXT V2: 3, 14, 28, 29, 31, 32, 34
+NEXT V2: 3, x, 28, y, 31, z, 34
 Logaritamska masa NEXT u modelu: -8.86244820
 Promena raspodele prema prethodnom kontekstu: 0.2018989109
 Qiskit, zajednički gradijenti, normalizacija i maksimum: provere prošle.
@@ -1128,9 +1128,9 @@ Završna optimizacija nije prijavila konvergenciju: STOP: TOTAL NO. OF ITERATION
 
 
 KONAČNI NEXT REZULTATI — V2
-loto7_4708_k85.csv: 6, 12, 14, 17, 19, 33, 37
-loto7_4708_k85_loto_2976.csv: 5, 8, 14, 22, 28, 31, 38
-loto7_4708_k85_loto_plus_1732.csv: 3, 14, 28, 29, 31, 32, 34
+loto7_4708_k85.csv: 6, x, 14, y, 19, z, 37
+loto7_4708_k85_loto_2976.csv: 5, x, 14, y, 28, z, 38
+loto7_4708_k85_loto_plus_1732.csv: 3, x, 28, y, 31, z, 34
 
 
 
